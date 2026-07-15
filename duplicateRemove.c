@@ -28,7 +28,7 @@ int main() {
     }
     if (n == 0)
         return 0;
-    printf("%d ", arr[0]);
+    // printf("%d ", arr[0]);
     for (int i = 1; i < n; i++) {
         if (arr[i] != arr[i - 1]) {
             printf("%d ", arr[i]);
